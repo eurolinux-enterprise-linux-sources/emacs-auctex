@@ -12,7 +12,7 @@
 Summary: 	Enhanced TeX modes for Emacs
 Name: 		emacs-auctex
 Version: 	11.87
-Release: 	3%{?dist}
+Release: 	4%{?dist}
 License: 	GPLv3+ and GFDL
 Group: 		Applications/Editors
 URL: 		http://www.gnu.org/software/auctex/
@@ -167,6 +167,9 @@ fi
 %doc doc/html
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 11.87-4
+- Mass rebuild 2013-12-27
+
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 11.87-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
